@@ -10,12 +10,12 @@ public class SwingLoginExample {
         welcome.setBounds(85,5,180,25);
         panel.add(welcome);
 
-        JLabel userLabel=new JLabel("User:");
+        JLabel userLabel=new JLabel("username:");
         userLabel.setBounds(30,40,80,25);
         panel.add(userLabel);
 
 
-        JLabel pswLabel=new JLabel("PassWord:");
+        JLabel pswLabel=new JLabel("password:");
         pswLabel.setBounds(30,80,80,25);
         panel.add(pswLabel);
 
